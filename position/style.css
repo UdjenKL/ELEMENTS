@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.block {
+  border: 5px solid red;
+  max-width: 800px;
+  margin: 0px auto;
+  height: 1800px;
+  position: relative;
+}
+.block div {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+.block__1 {
+  position: absolute;
+  width: 100%;
+  background-color: #ece89d;
+  z-index: 1;
+}
+.block__2 {
+  position: fixed;
+  background-color: #5e5373;
+  color: white;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+}
+.block__3 {
+  background-color: #18b5a4;
+}

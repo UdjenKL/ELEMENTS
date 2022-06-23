@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.weather-widjet {
+  width: 608px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.logo {
+  background-image: url(../img/weather.png);
+  height: 174px;
+
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: "Economica", sans-serif;
+
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding-left: 21px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #1d856b;
+}
+.footer {
+  display: flex;
+  height: 120px;
+  background-color: #434a54;
+  justify-content: right;
+  align-items: flex-end;
+}
+.grey {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #434a54;
+  width: 248px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  
+}
+.temperature {
+  background-image: url(../img/23°.png);
+  background-size: 35px;
+  background-position: 10px 8px;
+  width: 50px;
+  height: 50px;
+
+  background-repeat: no-repeat;
+}
+.cloud {
+  background-image: url(../img/CS.png);
+  background-position: 5px 1px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.lightgreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #48cfad;
+  width: 121px;
+  height: 116px;
+}
+.lightgreen .lightgreen-SecondValue,
+.lightgreen-TherdValue,
+.lightblue .lightblue-SecondValue,
+.lightblue-TherdValue,
+.pink .pink-SecondValue,
+.pink-TherdValue {
+  padding: 5px;
+}
+.lightgreen .lightgreen-firstValue,
+.lightblue .lightblue-firstValue,
+.pink .pink-firstValue {
+  padding: 6px 16px;
+}
+.lightgreen-firstValue {
+  border-radius: 10px;
+  background-color: #37bc9b;
+}
+.lightblue-firstValue {
+  border-radius: 10px;
+  background-color: #4a89dc;
+  color: #2b5ea2;
+}
+.pink-firstValue {
+  border-radius: 10px;
+  background-color: #da4453;
+  color: #971c29;
+}
+.lightblue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 121px;
+  height: 116px;
+  background-color: #5d9cec;
+}
+.pink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 121px;
+  height: 116px;
+  background-color: #ed5565;
+}
+.button {
+  color: grey;
+  position: absolute;
+  background-color: #2b323c;
+  text-align: center;
+  top: 250px;
+  width: 130px;
+  height: 27px;
+  border: none;
+  border-radius: 5px;
+}

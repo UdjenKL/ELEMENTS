@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_section">
+        <div class="header_item_menu">
+          <div class="menu">
+            <a href="#" class="menu-btn"> </a>
+          </div>
+        </div>
+        <nav class="navigation">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+        <div class="header_input">
+    <input placeholder="search for something :)" class="text" type="text" size="40" name="text">
+      </div>
+    </div>
+    <script>
+      (function () {
+        const burger = document.querySelector('.menu-btn');
+        burger.addEventListener('click', () => {
+          burger.classList.toggle('burger_active')
+        });
+      }());
+    </script>
+  </body>
+</html>

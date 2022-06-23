@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  border: 4px double black;
+  width: 1000px;
+  height: 370px;
+  top: 100px;
+  border-radius: 20px;
+}
+.shadow {
+  background: #fc0;
+  box-shadow: 0 0 10px;
+}
+.avatar1 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 320px;
+}
+.avatar1 #eye-1,
+.avatar2 #eye-2,
+.avatar3 #eye-3 {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+.avatar1 #nose-1,
+.avatar2 #nose-1,
+.avatar3 #nose-1 {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+}
+.avatar1 #mouth-2,
+.avatar2 #mouth-2,
+.avatar3 #mouth-2 {
+  position: absolute;
+  top: 130px;
+  left: 130px;
+}
+.avatar1 #hoodie,
+.avatar2 #hoodie,
+.avatar3 #hoodie {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+}
+.avatar3 #hat-1 {
+  position: absolute;
+  top: -90px;
+  left: -16px;
+}
+.avatar2 {
+  position: absolute;
+  left: 340px;
+  width: 320px;
+  top: 20px;
+}
+.avatar3 {
+  position: absolute;
+  left: 670px;
+  width: 320px;
+  top: 20px;
+}

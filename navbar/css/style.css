@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.header .header_section {
+  display: flex;
+  height: 57px;
+  width: 950px;
+  margin: 0 auto;
+}
+.menu {
+  width: 69px;
+  height: 68px;
+  background: #da4453;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-btn {
+  width: 320px;
+  height: 24px;
+  background-color: #fff;
+  background: url(../img/navbar_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.burger .header .header_section .header_item {
+  background: #ed5565;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  border: 2px solid #da4453;
+  border-right: #da4453;
+}
+.header_input {
+  width: 280px;
+  height: 43px;
+  background: #ed5565;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+
+  padding-top: 12px;
+  padding-bottom: 13px;
+  border-right: #da4453;
+}
+input {
+  border-radius: 10px;
+  width: 250px;
+}
+.navigation {
+  width: 558px;
+  background: #ed5565;
+  height: 68px;
+}
+.navigation ul {
+  list-style: none;
+  height: 100%;
+}
+.navigation li {
+  height: 100%;
+  border-right: 2px solid #da4453;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  line-height: 4;
+  font-weight: 400;
+  color: #ffffff;
+  display: inline-block;
+}
+.text {
+  height: 34px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  background-image: url(../img/search.png);
+  background-position: 97%;
+  background-repeat: no-repeat;
+}
+.burger_active {
+  background: url(../img/cancel.png) no-repeat center;
+  background-size: contain;
+}

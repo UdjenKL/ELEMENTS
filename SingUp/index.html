@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="fragment">
+      <form action="" class="main-form">
+        <h2 class="form-header">Sing Up</h2>
+        <div class="info">
+          <div class="marker">1</div>
+          <span>Your basic info</span>
+          <p>Name:</p>
+          <input class="inputs main-info" type="text" name="name" id="name" />
+          <p>Email:</p>
+          <input
+            class="inputs main-info"
+            type="email"
+            name="email"
+            id="email"
+          />
+          <p>Password:</p>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            class="inputs main-info"
+          />
+          <p>Age</p>
+          <div id="age">
+            <div>
+              <input type="radio" name="age" id="under13" />
+              <label for="under13">Under 13</label>
+            </div>
+            <input type="radio" name="age" id="older" />
+            <label for="older">13 or older</label>
+          </div>
+        </div>
+        <div class="info">
+          <div class="marker">2</div>
+          <span>Your profile</span>
+          <p>Biography:</p>
+          <textarea name="bio" id="bio" cols="30" rows="3" class="inputs">
+          </textarea>
+
+          <p>Job Role:</p>
+          <select class="inputs select">
+            <option value="" selected disabled>Bussiness Owner</option>
+          </select>
+          <p>Interest:</p>
+          <div id="interest">
+            <input type="checkbox" name="dev" id="ch1" />
+            <label for="ch1">Development</label>
+            <br />
+            <input type="checkbox" name="design" id="ch2" />
+            <label for="ch2">Design</label>
+            <br />
+            <input type="checkbox" name="design" id="ch3" />
+            <label for="ch3">Business</label>
+            <br />
+          </div>
+        </div>
+        <div class="button-block">
+          <button type="submit">Sing Up</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+* {
+  margin: 20px;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.nav_panel_1 {
+  margin: 0 auto;
+  width: 1250px;
+  height: 60px;
+  background-color: #5f7c35;
+  border-radius: 9px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.HOME {
+  width: 180px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #88b04b;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.ABOUT,
+.SERVICE,
+.CONTACT {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.burger {
+  position: relative;
+  width: 70px;
+  left: 20px;
+  top: 20px;
+}
+.search {
+  position: relative;
+  left: 380px;
+}
+#menu__toggle {
+  opacity: 0; /*Определяет уровень прозрачности элемента веб-страницы*/
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+.menu__btn {
+  position: fixed;
+  top: 30px;
+  left: 332px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #f8f3f3;
+  transition-duration: 0.25s;
+}
+.menu__btn > span::before {
+  content: "";
+  top: -6px;
+}
+.menu__btn > span::after {
+  content: "";
+  top: 7px;
+}
+.menu__box {
+  display: inline-block;
+  position: absolute;
+  visibility: visible;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #88b04b;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.25s;
+}
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: rgb(245, 238, 238);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+.menu__item:hover {
+  background-color: #cfd8dc;
+}
